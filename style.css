@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Akshar", sans-serif;
+}
+
+:root {
+  --gold1: #f7a600;
+  --grey1: #e2e5ec;
+  --grey2: #7e7f80;
+  --blue1: #023f86;
+  --blue2: #003366;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--gold1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--blue1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue2);
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--blue1);
+  border-bottom: 5px solid var(--gold1);
+  box-shadow: 0px 0px 30px black;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  background-color: var(--grey1);
+}
+
+#sociologo {
+  width: 300px;
+}
+
+.nav-li {
+  display: inline;
+  font-size: 20px;
+  color: var(--grey1);
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: var(--grey1);
+  padding: 36px 20px;
+}
+
+.nav-li a:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--grey1);
+  color: var(--grey2);
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.main1 {
+  display: flex;
+  justify-content: center;
+}
+
+.divs1 {
+  margin: 20px;
+}
+
+#div1 {
+  width: 350px;
+  height: 250px;
+  background-color: var(--gold1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: var(--blue2);
+}
+
+#div1 a {
+  padding: 10px 20px;
+  background-color: var(--blue2);
+  color: var(--grey1);
+  border-radius: 40px;
+  margin: 5px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#div1 a:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--blue1);
+}
+
+#div2 {
+  width: 750px;
+  height: 250px;
+  background-color: var(--grey2);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.reg-is {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.reg-is a {
+  text-decoration: none;
+  color: var(--grey1);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 30px;
+  background-color: var(--gold1);
+  border-radius: 40px;
+  box-shadow: 0px 0px 70px -15px black;
+}
+
+.reg-is a:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(212, 163, 0);
+}
+
+.reg-is h1,
+.reg-is span {
+  color: var(--grey1);
+}
+
+.barra {
+  width: 100%;
+  height: 80px;
+  background-color: var(--blue2);
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--grey1);
+  font-size: 25px;
+  box-shadow: 0px 0px 20px black;
+}
+
+#galeria img {
+  width: 100%;
+}
